@@ -13,7 +13,7 @@ build\windows-msvc-debug\game\Skybound.exe
 Escape or closing the window exits.
 
 ## Status
-Phase 1 (CMake, SDL3 window, fixed-step loop, input, logging, Catch2, CI): implemented. Verified so far: Built, Unit tested (35 tests) and Run headless on macOS/clang only. Not yet verified on Windows/MSVC or in CI.
+Phase 1 (CMake, SDL3 window, fixed-step loop, input, logging, Catch2, CI): implemented. See `docs/PROGRESS.md` for the verification record and the Phase 2 plan. Verified so far: Built, Unit tested (35 tests) and run on macOS/clang only; Windows/MSVC and CI results are still pending.
 
 ## Known limitations
 - The window shows nothing yet (no renderer until Phase 2).
